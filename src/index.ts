@@ -1,7 +1,6 @@
-import { greetUser } from '$utils/greet';
-
-window.Webflow ||= [];
-window.Webflow.push(() => {
-  const name = 'John Doe';
-  greetUser(name);
+document.addEventListener('DOMContentLoaded', function() {
+  var elements = document.querySelectorAll('.embed-code-cover');
+  elements.forEach(function(element) {
+    element.classList.remove('embed-code-cover');
+  });
 });
